@@ -694,8 +694,23 @@ $('#gal-next').addEventListener('click', ()=> $('#gallery').scrollBy({left: Math
 $('#gal-prev').addEventListener('click', ()=> $('#gallery').scrollBy({left: -Math.min($('#gallery').clientWidth*.8, 300), behavior:'smooth'}));
 
 /* ================= LETTER (typewriter) ================= */
-const LETTER_P1 = `Happy birthday, my love! Today the whole world celebrates the day it got its most beautiful gift — you. I still can't believe how lucky I am to call you mine.`;
-const LETTER_P2 = `You make my ordinary days feel like celebrations and my heart feel like home. I promise to keep making you smile — today, and every single day after.`;
+const LETTER_P1 = `HAPPPY HAPPY BIRTHDAYYYYY! Mai bataaa nhi sktaaa mai aaj ke din kitnaaa khush hun! Likeee, aaj ka din kitna khaas hai, aur khaas kaise na ho? After all, TODAY IS MY FAV PERSON'S BIRTHDAYYYYYYYYY! YAYAYYAYAYAAYAYYAYAY! 🎂✨️🎆
+
+You're finally 18, aur ab mai tumhe adopt bhi nhi kar sakta 😔 Koi baat nahi. I'll use this as a chance to express what you mean to me...
+
+Tum mere din ka sabse pehla aur raat ka sabse aakhri khayaal ho. Aur yk, mai kehta nhi hun, but jab bhi tum meri baat sabr se sunkar meri saari overthinking door karti ho na, I swear, itna achha lagta hai. Mai woh feeling hi describe nhi kar sakta!
+
+Aur pata hai, hum jab bhi larte hain, mera dil halaq mein aa jaata hai. Aur upar se tum maan jaati ho, but maze leti ho mere baar baar sorry bolne ke! 😭😭😭 Itna gussa aata hai na, magar phir khayaal aata hai ke ye sab mere saath nhi karogi toh kiske saath karogi? Toh hans deta hun.`;
+const LETTER_P2 = `I really hope you know how grateful I am to have you in my life. You fill my boring ahhh, dull life with colours. Like, qehed ke baad ki barsaat jis tarah feel hoti hai na, bilkul usi tarah ka ehsaas hota hai mujhe. I never want this to end.
+
+You bring so much happiness, warmth, and entertainment into everyone's life. I'm actually very lucky to have you in my life. We made so many memories in these couple of years, like our random roleplays and whenever we fight just to get rid of boredom. PEAK MEMORIES! I'll always cherish them, no matter where life takes us. (No where jaaaaan, nhi chorunga itni aasaani se.)
+
+I hooopeeeeee your day is filled with happiness, love, laughterrrr, and everything that makes you smileeeeeeeeeee.
+
+Your smile matters a lot to me, sooo...
+
+HAPPY BIRTHDAY, CHANDA!
+`;
 let typed = {p1:false, p2:false};
 function typeText(el, text, done){
   el.innerHTML = '<span class="t"></span><span class="caret"></span>';
